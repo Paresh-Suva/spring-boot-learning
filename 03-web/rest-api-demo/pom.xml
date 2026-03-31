@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>ioc-container-demo</artifactId>
+	<artifactId>rest-api-demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name/>
 	<description/>
