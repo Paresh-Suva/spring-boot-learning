@@ -20,5 +20,6 @@
         <module>03-web/rest-api-demo</module>
         <module>04-database/jpa-basics-demo</module>
         <module>04-database/jpa-relationships-demo</module>
+        <module>05-security/csrf-demo</module>
     </modules>
 </project>
