@@ -5,7 +5,7 @@ import com.example.ioc.service.UPIService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-// THIS CLASS HANDLES PAYMENT API REQUESTS.
+// PAYMENT API REQUESTS.
 @RestController
 public class PaymentController {
 

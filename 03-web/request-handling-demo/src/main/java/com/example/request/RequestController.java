@@ -26,16 +26,14 @@ public class RequestController {
         return "HELLO " + username;
     }
 
-    // @GetMapping TELLS SPRING THIS METHOD RUNS FOR /AGE.
-    // @REQUESTPARAM TELLS SPRING TO READ VALUE FROM THE URL QUERY.
-    // EXAMPLE: /AGE?VALUE=20
+    // @REQUESTPARAM : READ VALUE FROM THE URL QUERY...
     @GetMapping("/age")
     public String age(@RequestParam int value) {
         return "AGE IS " + value;
     }
 
-    // @POSTMAPPING TELLS SPRING THIS METHOD RUNS FOR /STUDENT POST REQUEST.
-    // @REQUESTBODY TELLS SPRING TO READ JSON BODY AND FILL STUDENT OBJECT.
+    // @POSTMAPPING : THIS METHOD RUNS FOR /STUDENT POST REQUEST
+    // @REQUESTBODY : TO READ JSON BODY AND FILL STUDENT OBJECT
     @PostMapping("/student")
     public String student(@RequestBody Student student) {
         student.getName();
