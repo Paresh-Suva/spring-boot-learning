@@ -21,5 +21,6 @@
         <module>04-database/jpa-basics-demo</module>
         <module>04-database/jpa-relationships-demo</module>
         <module>05-security/csrf-demo</module>
+        <module>05-security/jwt-auth-demo</module>
     </modules>
 </project>
